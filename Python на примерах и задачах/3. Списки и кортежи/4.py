@@ -1,6 +1,6 @@
 import random
 
-size = int(input("Введите размер стороны вложенного списка: "))
+size = int(input("Введите размер стороны матрицы: "))
 array = [[0 for i in range(size)] for j in range(size)]
 
 def snake(list):
